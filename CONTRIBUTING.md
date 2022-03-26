@@ -28,7 +28,8 @@
 ## 表現に関するルール
 
 基本的には他の文章と比べて違和感がないようにしていただければ良いです。細かい部分は個人のセンスに任せます。  
-VS Codeの拡張機能である[テキスト公正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)を使うことを推奨します。
+[テンプレート](TEMPLETE.md)を用意しています。  
+VS Codeの拡張機能である[テキスト公正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)を使うことを推奨します。設定は、[VS Codeの拡張機能「テキスト校正くん」の設定方法](docs/appendix/how-to-use-text-linter-in-vs-code.md)を参照してください。
 
 ### です・ます調
 
