@@ -17,7 +17,7 @@
     -   [文字列](docs/basic/data-types.md#string-type)
     -   [配列、集合、辞書](docs/basic/data-types.md#container-type)
 -   [制御構文を理解する](docs/basic/syntax.md)
-    -   [条件分岐](docs/basic/syntax.md#if-else)
+    -   [条件分岐](docs/basic/syntax.md#branch)
     -   [反復](docs/basic/syntax.md#loop)
     -   [例外処理](docs/basic/syntax.md#exception)
 -   [関数を理解する](docs/basic/function.md)
@@ -28,34 +28,26 @@
 
 ### 応用編
 
--   仮想環境を使う
--   テストする
--   高度な構文を理解する
-    -   イテレータ・ジェネレータ
-    -   デコレータ
-    -   非同期処理
--   ベストプラクティス
-    -   命名規則
-    -   コーディングスタイル
--   生産性の向上のために
-    -   パッケージ管理ツールを使う
-    -   フォーマッタを使う
--   各種ライブラリ
-    -   数値計算
-        -   Numpy
-    -   データ解析
-        -   Pandas
-        -   Matplitlib
-    -   GUI
-        -   Tkinter
-    -   画像処理
-        -   Pillow
-    -   Webスクレイピング
-        -   Beautiful Soup
-        -   Selenium
-    -   Webアプリ
-        -   Django
-        -   FastAPI
+-   [仮想環境を使う](docs/advance/virtual-environment.md)
+-   [テストする](docs/advance/testing.md)
+-   [高度な構文を理解する](docs/advance/advanced-syntax.md)
+    -   [ジェネレータ](docs/advance/advanced-syntax.md#generator)
+    -   [デコレータ](docs/advance/advanced-syntax.md#decorator)
+    -   [非同期処理](docs/advance/advanced-syntax.md#async)
+-   [ベストプラクティス](docs/advance/best-practice.md)
+    -   [命名規則](docs/advance/best-practice.md#naming)
+    -   [コーディングスタイル](docs/advance/best-practice.md#styling)
+-   [生産性の向上のために](docs/advance/improve-productivity.md)
+    -   [パッケージ管理ツールを使う](docs/advance/improve-productivity.md#package-management)
+    -   [フォーマッタを使う](docs/advance/improve-productivity.md#formatter)
+-   [各種ライブラリ](docs/advance/useful-libraries)
+    -   [Numpy](docs/advance/useful-libraries/numpy.md)
+    -   [pandas](docs/advance/useful-libraries/pandas.md)
+    -   [Matplotlib](docs/advance/useful-libraries/matplotlib.md)
+    -   [Beautiful Soup](docs/advance/useful-libraries/beautiful-soup.md)
+    -   [Selenium](docs/advance/useful-libraries/selenium.md)
+    -   [Django](docs/advance/useful-libraries/django.md)
+    -   [FastAPI](docs/advance/useful-libraries/fastapi.md)
 
 ### 実践編
 
