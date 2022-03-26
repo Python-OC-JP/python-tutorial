@@ -7,24 +7,24 @@
 
 ### 基本編
 
--   Pythonを始める
-    -   Pythonのインストール
-    -   対話モードでPythonを使う
-    -   VS Codeを使った環境構築
--   変数とデータ型を理解する
-    -   整数
-    -   浮動小数点
-    -   文字列
-    -   配列、集合、辞書
--   制御構文を理解する
-    -   条件分岐
-    -   反復
-    -   例外処理
--   関数を理解する
--   クラスを理解する
--   モジュールを理解する
--   組み込み関数を使う
--   標準ライブラリを使う
+-   [Pythonを始める](docs/basic/start-python.md)
+    -   [Pythonのインストール](docs/basic/start-python.md#install-python)
+    -   [対話モードでPythonを使う](docs/basic/start-python.md#use-interactive-mode)
+    -   [VS Codeを使った環境構築](docs/basic/start-python.md#setup-for-vscode)
+-   [データ型を理解する](docs/basic/data-types.md)
+    -   [整数](docs/basic/data-types.md#integer-type)
+    -   [浮動小数点](docs/basic/data-types.md#float-type)
+    -   [文字列](docs/basic/data-types.md#string-type)
+    -   [配列、集合、辞書](docs/basic/data-types.md#container-type)
+-   [制御構文を理解する](docs/basic/syntax.md)
+    -   [条件分岐](docs/basic/syntax.md#if-else)
+    -   [反復](docs/basic/syntax.md#loop)
+    -   [例外処理](docs/basic/syntax.md#exception)
+-   [関数を理解する](docs/basic/function.md)
+-   [クラスを理解する](docs/basic/class.md)
+-   [モジュールを理解する](docs/basic/module.md)
+-   [組み込み関数を使う](docs/basic/built-in-functions.md)
+-   [標準ライブラリを使う](docs/basic/standard-library.md)
 
 ### 応用編
 
