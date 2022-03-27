@@ -22,7 +22,7 @@ Macの場合、あらかじめシステムにPythonがインストールされ�
   Python 3系がシステムのデフォルトとなっています。本チャプターは読み飛ばしていただいて構いません。
 
 - **`zsh: python: command not found` などと表示された場合**  
-  システムにPythonがインストールされていないか、何らかのトラブルでPythonが利用できていない状態です。[トラブルシューティング](trouble-shooting.md)を参照してください。
+  システムにPythonがインストールされていないか、何らかのトラブルでPythonが利用できていない状態です。[よくある質問](/docs/faq/frequency-asked-question.md)を参照してください。
 
 また、次のコマンドを実行してインストールされているpython 3系のバージョンを確認します。
 
@@ -33,7 +33,7 @@ Macの場合、あらかじめシステムにPythonがインストールされ�
   Python 3系がシステムにインストールされています。[エイリアスを作成する](#alias-python-is-python3)に進んでください。
 
 - **`zsh: python3: command not found` などと表示された場合**  
-  システムにPython 3系がインストールされていないか、何らかのトラブルでPython 3系が利用できていない状態です。[トラブルシューティング](trouble-shooting.md)を参照してください。
+  システムにPython 3系がインストールされていないか、何らかのトラブルでPython 3系が利用できていない状態です。[よくある質問](/docs/faq/frequency-asked-question.md)を参照してください。
 
 ### <p id="alias-python-is-python3">エイリアスを作成する</p>
 
