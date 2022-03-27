@@ -1,51 +1,109 @@
 # Pythonを始める（Windows）
-さあ、Pythonをはじめましょう。まずはお手持ちのPCでPythonを利用するための環境を構築します。  
+
+さあ、Pythonをはじめましょう。まずはお手持ちのWindowsでPythonを利用するための環境を構築します。  
 
 ## Pythonのバージョン
+
 Pythonのバージョンは大きく分けて2と3があります。それぞれPython 2系やPython 3系と呼ばれます。現在では、Python 2系の開発はストップしており、Python 3系の使用が強く推奨されています。本リポジトリではPython 3系のみを使用します。Python 2系を学ぶ必要はありません。
 
 ## <p id="install-python">Pythonのインストール</p>
 
+
+## <p id="use-interactive-mode">対話モードでPythonを使う</p>
+
 ## pyenvのインストール
 
+### pyenvを用いたPythonのインストール
 
-### LinuxやMacをお持ちの方へ
-多くのマシンにはデフォルトでPythonがインストールされています。  
-ターミナルで次のコマンドを実行してインストールされているPythonのバージョンを確認します。 `-V` オプションはバージョンを表示するという意味です。
+pyenvを用いることで、複数のバージョンのPythonをシステム標準とは独立した環境で導入・管理できます。
+
+ターミナルで次のコマンドを実行し、pyenvを用いてインストールできるPythonのバージョン一覧を確認します。
+
+```shell
+> pyenv install --list
+```
+
+ここでは、Pythonのバージョン3.8.9と3.9.6をインストールします。
+
+```shell
+> pyenv install 3.8.9
+> pyenv install 3.9.6
+```
+
+pyenvの環境にインストールされているPythonのバージョン一覧を確認します。
+
+```shell
+> pyenv versions
+* system (set by /Users/user/.pyenv/version)
+  3.8.9
+  3.9.6
+```
+
+ここで、`system` はシステム標準のPythonを、`3.8.9`、`3.9.6` は新しくインストールしたPythonを表しています。`*` は現在使っているPythonを示しています。
+
+Python 3.9.6を使うには、Windows Terminalで次のコマンドを実行します。
+
+```shell
+> pyenv global 3.9.6
+```
+
+再度、pyenvの環境にインストールされているPythonのバージョン一覧を確認します。
+
+```shell
+> pyenv versions
+  system
+  3.8.9
+* 3.9.6 (set by /Users/user/.pyenv/version)
+```
+
+Pythonのバージョンを表示して3.9.6であることを確認します。
 
 ```shell
 > python -V
+Python 3.9.6
 ```
 
-- **`Python 2.*.*`（`*` は任意の数字）と表示された場合**  
-  Python 2系がシステムのデフォルトとなっておりますので、Python 3系を使うように設定する必要があります。 
+ここで、Pythonの実行コマンドの実体がどこにあるかを確認します。
 
-- **`Python 3.*.*` と表示された場合**  
-  Python 3系がシステムのデフォルトとなっておりますので、以下は飛ばしていただいて構いません。
-
-- **`bash: python: command not found` などと表示された場合**  
-  [Pythonをシステムにインストール](https://www.python.org/downloads/)する必要があります。最新バージョンのPython 3系をインストールしてください。
-
-Python 2系がシステムのデフォルトとなっている場合は、次のコマンドでPython 3系がインストールされているか確認します。
+```shell
+> which python
+/Users/user/.pyenv/shims/python
 ```
-> python3 -V
+
+`~/.pyenv/shims/` にPythonの実体がありました。このディレクトリは、pyenvの仕組みの核となっています。
+
+また、あるディレクトリの中だけで特定のPythonのバージョンを利用することもできます。  
+ここでは、次のような `pyenv-demo` というディレクトリの中で作業を行います。
+
 ```
-- **`Python 3.*.*` と表示された場合**  
-  Python 3系がインストールされています。
+pyenv-demo
+└── py38
+```
 
-- **`bash: python3: command not found` などと表示された場合**  
-  [Pythonをシステムにインストール](https://www.python.org/downloads/)する必要があります。最新バージョンのPython 3系をインストールしてください。
+ここで、`pyenv-demo/py38` の内部だけでPython 3.8.9を使いたい、といったことがpyenvでは簡単に実現できます。
 
+`pyenv-demo/py38` の内部だけで先ほどインストールしたPython 3.8.9を使うように設定するには、ターミナルで次のコマンドを実行します。
 
+```shell
+> cd py38 # py38ディレクトリに移動する
+> pyenv local 3.8.9
+```
 
-###  Windowsをお持ちの方へ
+Pythonのバージョンを表示して3.8.9であることを確認します。
 
-## <p id="use-interactive-mode">対話モードでPythonを使う</p>
-### LinuxやMacをお持ちの方へ
+```shell
+> python -V
+Python 3.8.9
+```
 
-###  Windowsをお持ちの方へ
+では、`pyenv-demo` ディレクトリに戻って再度Pythonのバージョンを表示します。
+
+```shell
+> cd .. # 親ディレクトリ（pyenv-demo）に移動する
+> python -V
+Python 3.9.6 
+```
+
+`pyenv global` コマンドで設定したPython 3.9.6に戻っています。
 
 ## <p id="setup-for-vscode">VS Codeを使った環境構築</p>
-### LinuxやMacをお持ちの方へ
-
-###  Windowsをお持ちの方へ
