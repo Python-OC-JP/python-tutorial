@@ -9,10 +9,9 @@
 
 ### 基本編
 
--   [Pythonを始める](docs/basic/start-python.md)
-    -   [Pythonのインストール](docs/basic/start-python.md#install-python)
-    -   [対話モードでPythonを使う](docs/basic/start-python.md#use-interactive-mode)
-    -   [VS Codeを使った環境構築](docs/basic/start-python.md#setup-for-vscode)
+-   [Pythonを始める](docs/basic/start-python)
+    -   [Pythonを始める（Mac）](docs/basic/start-python/start-python-for-mac.md)
+    -   [Pythonを始める（Windows）](docs/basic/start-python/start-python-for-windows.md)
 -   [データ型を理解する](docs/basic/data-types.md)
     -   [整数](docs/basic/data-types.md#integer-type)
     -   [浮動小数点](docs/basic/data-types.md#float-type)
