@@ -13,7 +13,7 @@ Mac OSの場合、あらかじめシステムにPythonがインストールさ�
 
 Pythonのインストールには、pyenvというツールを使います。  
 pyenvを用いることで、複数のバージョンのPythonをシステム標準とは独立した環境で導入・管理できます。  
-Mac OSにpyenvをインストールするには、[Mac OSでpyenvをインストールする](/docs/appendix/how-to-install-pyenv-on-macos.md)を参照してください。
+Mac OSにpyenvをインストールするには、[Mac OSにpyenvをインストールする](/docs/appendix/how-to-install-pyenv-on-macos.md)を参照してください。
 
 pyenvのインストールが完了したら、ターミナルで次のコマンドを実行し、pyenvを用いてインストールできるPythonのバージョン一覧を確認します。
 
@@ -107,7 +107,7 @@ Hello World!
 
 [Visual Studio Code](https://code.visualstudio.com/) (VS Code) は、コーディングのための便利なエディタです。  
 Pythonのための便利で豊富な拡張機能を簡単に利用でき、Pythonのコーディングを効率良く行うことができます。  
-Mac OSにVS Codeをインストールするには、[Mac OSでVisual Studio Codeをインストールする](/docs/appendix/how-to-install-vscode-on-macos.md)を参照してください。
+Mac OSにVS Codeをインストールするには、[Mac OSにVisual Studio Codeをインストールする](/docs/appendix/how-to-install-vscode-on-macos.md)を参照してください。
 
 --- 
 
