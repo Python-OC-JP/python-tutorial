@@ -12,7 +12,7 @@
 -   [Pythonを始める](docs/basic/start-python)
     -   [Mac OSでPythonを始める](docs/basic/start-python/start-python-on-macos.md)
     -   [WindowsでPythonを始める](docs/basic/start-python/start-python-on-windows.md)
--   [データ型を理解する](docs/basic/data-types.md)
+-   [変数とデータ型を理解する](docs/basic/variable.md)
     -   [整数](docs/basic/data-types.md#integer-type)
     -   [浮動小数点](docs/basic/data-types.md#float-type)
     -   [文字列](docs/basic/data-types.md#string-type)
