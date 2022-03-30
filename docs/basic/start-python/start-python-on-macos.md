@@ -6,7 +6,7 @@
 
 Pythonのバージョンは大きく分けて2と3があります。それぞれPython 2系やPython 3系と呼ばれます。現在では、Python 2系の開発はストップしており、Python 3系の使用が強く推奨されています。本リポジトリではPython 3系のみを使用します。Python 2系を学ぶ必要はありません。
 
-## <p id="install-python">Pythonのインストール</p>
+## Pythonのインストール
 
 ここでは、Pythonをシステムにインストールします。  
 Macの場合、あらかじめシステムにPythonがインストールされていることがほとんどです。しかし、多くの場合はバージョンが古いので、新しいバージョンのPythonをインストールします。
@@ -61,7 +61,7 @@ Python 3.9.6
 
 これでPythonのインストールは完了です。
 
-## <p id="use-interactive-mode">対話モードでPythonを使う</p>
+## 対話モードでPythonを使う
 
 Pythonを対話モードで実行します。  
 ターミナルで次のコマンドを実行します。
@@ -103,7 +103,7 @@ Hello World!
 後のセクションではPythonのさまざまな機能を学んでいきます。
 楽しみにしていてください。
 
-## <p id="setup-for-vscode">Visual Studio Codeを使った環境構築</p>
+## Visual Studio Codeを使った環境構築
 
 [Visual Studio Code](https://code.visualstudio.com/) (VS Code) は、コーディングのための便利なエディタです。  
 Pythonのための便利で豊富な拡張機能を簡単に利用でき、Pythonのコーディングを効率良く行うことができます。  
