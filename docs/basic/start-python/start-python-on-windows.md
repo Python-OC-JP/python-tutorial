@@ -1,4 +1,4 @@
-# Pythonを始める（Windows）
+# WindowsでPythonを始める
 
 さあ、Pythonをはじめましょう。まずはお手持ちのWindowsでPythonを利用するための環境を構築します。  
 

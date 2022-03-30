@@ -10,8 +10,8 @@
 ### 基本編
 
 -   [Pythonを始める](docs/basic/start-python)
-    -   [Pythonを始める（Mac）](docs/basic/start-python/start-python-for-mac.md)
-    -   [Pythonを始める（Windows）](docs/basic/start-python/start-python-for-windows.md)
+    -   [Mac OSでPythonを始める](docs/basic/start-python/start-python-on-macos.md)
+    -   [WindowsでPythonを始める](docs/basic/start-python/start-python-on-windows.md)
 -   [データ型を理解する](docs/basic/data-types.md)
     -   [整数](docs/basic/data-types.md#integer-type)
     -   [浮動小数点](docs/basic/data-types.md#float-type)
